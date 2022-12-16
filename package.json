@@ -1,0 +1,18 @@
+{
+  "name": "techbot",
+  "version": "0.0.0",
+  "description": "A helpful Slackbot",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Aishwaryatech",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.8.0",
+    "esm": "^3.2.25"
+  }
+}
